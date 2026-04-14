@@ -1,9 +1,10 @@
 # KNOWN ISSUES
 
-VERY long story short, I couldn't get this to run properly on Android or the Web.
+VERY long story short, this doesn't run consistently on Android, and 
+does not run on the Web.
 
 On the web version, the react native function for maps simply does not render, and 
-for the Android version, the tiles don't render.
+for the Android version, sometimes the tiles don't render.
 
 If you run this on an iPhone or in a Snack with the iPhone emulator, it should work 
 perfectly fine, assuming you have the API key dropped in.

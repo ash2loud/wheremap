@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "wheremap",
+    "slug": "wheremap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wheremap.app",
+      "config": {
+        "googleMapsApiKey": "apikeygoeshere"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.wheremap.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "apikeygoeshere"
+        }
+      },
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow wheremap to use your location to find nearby restaurants."
+        }
+      ]
+    ],
+    "extra": {
+      "gmapkey": "apikeygoeshere"
+    }
+  }
+}
